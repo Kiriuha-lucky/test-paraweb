@@ -1,0 +1,24 @@
+$tablet-width: 768px;
+$desktop-width: 1140px;
+
+.articles-list {
+  list-style: none;
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  display: grid;
+  gap: 16px;
+  max-width: 1164px;
+  margin: 0 auto;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
