@@ -1,0 +1,127 @@
+$tablet-width: 768px;
+$desktop-width: 1140px;
+
+.slider {
+  color: #fff;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+
+  &__dots-list {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 72px;
+    justify-content: space-between;
+
+    @media (min-width: $tablet-width) {
+      left: 29px;
+    }
+
+    @media (min-width: $desktop-width) {
+      width: 99px;
+      bottom: 64px;
+      left: 50%;
+      transform: translateX(-520px);
+    }
+  }
+
+  &__dots-item {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+
+    @media (min-width: $desktop-width) {
+      width: 29px;
+    }
+
+    &--active {
+      background-color: #fff;
+    }
+  }
+}
+
+.slide {
+  background: url("../../../public/img/bg_mobile.png"), linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  @media (min-width: $tablet-width) {
+    background: url("../../../public/img/bg_desktop.png"), linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+  }
+
+  &__wrapper {
+    max-width: 1040px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px 16px;
+
+    @media (min-width: $tablet-width) {
+      padding: 29px;
+    }
+
+    @media (min-width: $desktop-width) {
+      padding: 29px 0;
+    }
+  }
+
+  &__title {
+    width: 318px;
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    @media (min-width: $desktop-width) {
+      width: 574px;
+      margin-bottom: 24px;
+      font-size: 40px;
+      line-height: 56px;
+    }
+  }
+
+  &__text {
+    width: 318px;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 22px;
+
+    @media (min-width: $desktop-width) {
+      width: 513px;
+      margin-bottom: 32px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    flex-shrink: 1;
+    margin-bottom: 163px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 14px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0050ef;
+
+    @media (min-width: $desktop-width) {
+      padding: 16px 32px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
