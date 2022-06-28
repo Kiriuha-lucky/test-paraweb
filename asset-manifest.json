@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-paraweb/static/css/main.c7beda82.css",
-    "main.js": "/test-paraweb/static/js/main.cde3a72e.js",
+    "main.js": "/test-paraweb/static/js/main.dc5399d0.js",
     "static/media/bg_desktop.png": "/test-paraweb/static/media/bg_desktop.e34cd00d5130f238cb72.png",
     "static/media/bg_mobile.png": "/test-paraweb/static/media/bg_mobile.f2978f6d1a680dc1ced9.png",
     "static/media/icon-vk.svg": "/test-paraweb/static/media/icon-vk.873cd6f92ac28905caac.svg",
@@ -14,10 +14,10 @@
     "static/media/icon-telegram.svg": "/test-paraweb/static/media/icon-telegram.291cdc953bf23858b250.svg",
     "static/media/icon-chevron-down.svg": "/test-paraweb/static/media/icon-chevron-down.afd1c0f4ed7a5ccedccd.svg",
     "main.c7beda82.css.map": "/test-paraweb/static/css/main.c7beda82.css.map",
-    "main.cde3a72e.js.map": "/test-paraweb/static/js/main.cde3a72e.js.map"
+    "main.dc5399d0.js.map": "/test-paraweb/static/js/main.dc5399d0.js.map"
   },
   "entrypoints": [
     "static/css/main.c7beda82.css",
-    "static/js/main.cde3a72e.js"
+    "static/js/main.dc5399d0.js"
   ]
 }
