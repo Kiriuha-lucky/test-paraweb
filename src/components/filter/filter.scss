@@ -1,0 +1,148 @@
+$tablet-width: 768px;
+$desktop-width: 1140px;
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden,
+input[type="date"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+
+  gap: 16px;
+  max-width: 1160px;
+  margin: 0 auto;
+
+  position: sticky;
+  top: 56px;
+  z-index: 5;
+  background-color: #e5e5e5;
+
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    top: 88px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &__author {
+    border: none;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    padding-left: 44px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+
+    &-wrapper {
+      position: relative;
+
+      &:before,
+      &:after {
+        position: absolute;
+        display: block;
+        content: "";
+        z-index: 5;
+      }
+
+      &:before {
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 18px;
+        height: 18px;
+        background-image: url("../../../public/img/icon-author.svg");
+      }
+
+      &:after {
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        background-image: url("../../../public/img/icon-chevron-down.svg");
+      }
+    }
+
+    @media (min-width: $tablet-width) {
+      min-width: 335px;
+      padding: 16px 46px;
+    }
+
+    &-option {
+      padding: 16px;
+      margin: 16px;
+    }
+  }
+
+  &__date-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+
+    @media (min-width: $tablet-width) {
+      min-width: 336px;
+    }
+  }
+
+  &__date {
+    margin-left: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+    color: #888888;
+    outline: none;
+    cursor: pointer;
+
+    &-label {
+      position: relative;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #888888;
+    }
+  }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid green;
+  width: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
