@@ -25,7 +25,6 @@ export function Filter({ articles, filters, setFilters }) {
         >
           <option
             className="filter__author-option"
-            selected={true}
             defaultValue
           >
             Выбор автора
