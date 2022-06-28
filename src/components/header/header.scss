@@ -4,6 +4,9 @@ $desktop-width: 1140px;
 .page-header {
   background-color: #fff;
   width: 100%;
+  position: sticky;
+  z-index: 5;
+  top: 0;
 
   &__wrapper {
     width: 100%;
@@ -12,11 +15,15 @@ $desktop-width: 1140px;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    max-width: 1040px;
+    max-width: 1164px;
 
     @media (min-width: $tablet-width) {
       padding: 29px;
       margin: 0 auto;
+    }
+
+    @media (min-width: $desktop-width) {
+      padding: 29px 0;
     }
   }
 
