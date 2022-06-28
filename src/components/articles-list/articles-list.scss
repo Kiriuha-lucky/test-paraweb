@@ -2,6 +2,7 @@ $tablet-width: 768px;
 $desktop-width: 1140px;
 
 .articles-list {
+  position: relative;
   list-style: none;
   margin: 0;
   padding: 16px;
@@ -10,7 +11,6 @@ $desktop-width: 1140px;
   gap: 16px;
   max-width: 1164px;
   margin: 0 auto;
-  // justify-content: center;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(2, 1fr);
