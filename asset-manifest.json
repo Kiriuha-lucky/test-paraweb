@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Kiriuha-lucky/test-paraweb/static/css/main.33716aea.css",
+    "main.js": "/Kiriuha-lucky/test-paraweb/static/js/main.cde3a72e.js",
+    "static/media/bg_desktop.png": "/Kiriuha-lucky/test-paraweb/static/media/bg_desktop.e34cd00d5130f238cb72.png",
+    "static/media/bg_mobile.png": "/Kiriuha-lucky/test-paraweb/static/media/bg_mobile.f2978f6d1a680dc1ced9.png",
+    "static/media/icon-vk.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-vk.2f32554bbbcc0d26a290.svg",
+    "static/media/icon-phone.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-phone.c2c0fa14091315c9ff87.svg",
+    "static/media/icon-twitter.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-twitter.0b9219868fb439100376.svg",
+    "index.html": "/Kiriuha-lucky/test-paraweb/index.html",
+    "static/media/icon-youtube.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-youtube.2fc45dfe11db65e372d6.svg",
+    "static/media/icon-author.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-author.25993830409c8d499d1d.svg",
+    "static/media/icon-mail.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-mail.6962a75efd582542433c.svg",
+    "static/media/icon-telegram.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-telegram.4b1d014d7bde622a01a6.svg",
+    "static/media/icon-chevron-down.svg": "/Kiriuha-lucky/test-paraweb/static/media/icon-chevron-down.c4c3a0a466aa70cfc98e.svg",
+    "main.33716aea.css.map": "/Kiriuha-lucky/test-paraweb/static/css/main.33716aea.css.map",
+    "main.cde3a72e.js.map": "/Kiriuha-lucky/test-paraweb/static/js/main.cde3a72e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33716aea.css",
+    "static/js/main.cde3a72e.js"
+  ]
+}
