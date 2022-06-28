@@ -48,19 +48,17 @@ $desktop-width: 1140px;
 }
 
 .slide {
-  background: url("../../../public/img/bg_mobile.png"), linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  background: linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
 
   @media (min-width: $tablet-width) {
-    background: url("../../../public/img/bg_desktop.png"), linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: contain;
+    background: linear-gradient(100.68deg, #5991ff 13.6%, #0050ef 94.69%);
   }
 
   &__wrapper {
+    background: url("../../../public/img/bg_mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     max-width: 1164px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -68,6 +66,10 @@ $desktop-width: 1140px;
 
     @media (min-width: $tablet-width) {
       padding: 29px;
+      background: url("../../../public/img/bg_desktop.png");
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: contain;
     }
 
     @media (min-width: $desktop-width) {
