@@ -6,6 +6,13 @@ $desktop-width: 1140px;
   background-color: #fff;
   border-radius: 20px;
   max-width: 572px;
+  box-sizing: border-box;
+  min-height: 100%;
+
+  @media(min-width: $tablet-width){
+    display: flex;
+    flex-direction: column;
+  }
 
   &__date {
     margin: 0;
@@ -45,5 +52,11 @@ $desktop-width: 1140px;
     font-size: 12px;
     line-height: 18px;
     color: #0050ef;
+    cursor: pointer;
+
+    @media(min-width: $tablet-width){
+      margin-top: auto;
+      align-self: flex-start;
+    }
   }
 }
