@@ -26,7 +26,7 @@ $desktop-width: 1140px;
       width: 99px;
       bottom: 64px;
       left: 50%;
-      transform: translateX(-520px);
+      transform: translateX(-582px);
     }
   }
 
@@ -61,7 +61,7 @@ $desktop-width: 1140px;
   }
 
   &__wrapper {
-    max-width: 1040px;
+    max-width: 1164px;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 20px 16px;
@@ -72,6 +72,7 @@ $desktop-width: 1140px;
 
     @media (min-width: $desktop-width) {
       padding: 29px 0;
+      padding-top: 100px;
     }
   }
 

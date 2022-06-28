@@ -19,12 +19,17 @@ input[type="radio"].visually-hidden {
   background-color: #011846;
   width: 100%;
   color: #fff;
+  margin-top: 56px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 80px;
+  }
 
   &__wrapper {
     width: 100%;
     padding: 24px 16px;
     box-sizing: border-box;
-    max-width: 1040px;
+    max-width: 1164px;
     display: flex;
     flex-direction: column;
 
@@ -34,6 +39,10 @@ input[type="radio"].visually-hidden {
       display: grid;
       grid-template-columns: 1fr 1fr;
       row-gap: 64px;
+    }
+
+    @media (min-width: $desktop-width) {
+      padding: 29px 0;
     }
   }
 
@@ -135,6 +144,7 @@ input[type="radio"].visually-hidden {
     }
     &--youtube {
       background-image: url("../../../public/img/icon-youtube.svg");
+      margin-right: 0;
     }
   }
 }
